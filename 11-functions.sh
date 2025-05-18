@@ -1,6 +1,6 @@
 #!/bin/bash
 userID=$(id -u)
-if [ $userID -ne 0]
+if [ $userID -ne 0 ]
 then
     echo "ERROR ::: please run the script with root access "
     exit 1
