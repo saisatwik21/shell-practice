@@ -6,6 +6,7 @@ then
     exit 1
 else
     echo " you are running the script with the root access "
+fi
 
 VALIDATE(){
     if [ $1 -eq 0 ]
